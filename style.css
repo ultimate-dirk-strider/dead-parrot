@@ -1,0 +1,79 @@
+body {
+  background: #ffffff;
+  color: #000000;
+  font-family: Verdana, Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 760px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 10px;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #000;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: "Courier New", monospace;
+  font-size: 40px;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+nav {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.comic-list {
+  margin-top: 20px;
+}
+
+.comic {
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.comic h3 a {
+  color: #000;
+  text-decoration: none;
+}
+
+.comic h3 a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+  border-top: 2px solid #000;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+
+.gray {
+  color: #999;
+}
